@@ -1,1 +1,2 @@
-botrun: cfbot_env
+botrun: cfbot
+botrun_env: cfbot_env

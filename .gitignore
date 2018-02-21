@@ -3,4 +3,3 @@ bot_settings
 build/
 cfbot.egg-info/
 dist/
-Procfile
