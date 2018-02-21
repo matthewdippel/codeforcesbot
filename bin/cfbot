@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""Codeforcesbot
+
+Discord bot for getting Codeforces user rankings
+
+Usage:
+    cfbot <channel> <token>
+
+Options:
+    <channel> Name of channel to chat in
+    <token> Bot's Discord API token
+    -h --help Show this screen
+"""
+from cfbot.Bot import CodeForcesBot
+from docopt import docopt
+
+args = docopt(__doc__)
+print(args)
+channel = args['<channel>']
+token = args['<token>']
+print ('Channel: ', channel )
+print ('Token: ', token) 
+bot = CodeForcesBot(channel_name=channel, bot_token=token)
+bot.run()
+print ("Bot call successful")

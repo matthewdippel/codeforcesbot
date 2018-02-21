@@ -1,0 +1,9 @@
+***
+To set up this file properly:
+    i) Copy to a new file, with a name and location of your choosing (we will pipe it into the cfbot call when we initialize the bot)
+    ii) Replace the string EXAMPLE_CHANNEL with your desired channel, and EXAMPLE_TOKEN with your bot token
+    iii) Remove all text between the *** lines
+    iv) If your file location is fpath, call the bot with the following command line:
+        cat fpath | xargs cfbot
+***
+EXAMPLE_CHANNEL EXAMPLE_TOKEN
