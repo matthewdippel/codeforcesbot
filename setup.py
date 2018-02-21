@@ -8,7 +8,7 @@ setup(
         email="mdippel@ccs.neu.edu",
         license='GPL-3.0',
         packages=['cfbot'],
-        scripts=['bin/cfbot'],
+        scripts=['bin/cfbot', 'bin/cfbot_env'],
         zip_safe=False,
         install_requires=['discord.py',
                           'requests',
